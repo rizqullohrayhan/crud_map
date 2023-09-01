@@ -1,0 +1,31 @@
+body {
+    background-color: darkgray;
+}
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+.sidebar {
+    height: 100vh;
+}
+
+#map { 
+    min-height: 400px;
+    margin: auto; 
+}
+
+.hidden {
+    /* visibility: hidden; */
+    display: none;
+}
+
+small {
+    font-size: .575em;
+    vertical-align: top;
+}
+
+trans {
+    opacity: 0.7;
+}
